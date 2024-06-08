@@ -30,6 +30,16 @@
                     </a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->routeIs('admin.dashboard') ? 'active' : '' }}"
+                        href="{{ route('admin.dashboard') }}">
+                        <span class="nav-icon">
+                            <i class="fa-solid fa-calendar-days" style="font-size: 20px"></i>
+                        </span>
+                        <span class="nav-link-text">Monthly Expences</span>
+                    </a>
+                </li>
+
                 <li class="nav-item has-submenu">
                     <a class="nav-link submenu-toggle" href="#" data-bs-toggle="collapse"
                         data-bs-target="#submenu-2" aria-expanded="false" aria-controls="submenu-2">
