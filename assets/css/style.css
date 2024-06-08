@@ -1,0 +1,538 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* Global Classes */
+
+.btn-custom-bg {
+  background-color: #153860;
+}
+
+.radius-20 {
+  border-radius: 20px;
+}
+
+.right-sider-radius {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.liver-color {
+  color: #524d4d;
+}
+
+.navy-blue {
+  color: #153860;
+}
+
+.bg-light-secondary {
+  background-color: #f3f3f3;
+}
+
+.btn-modal-add {
+  background-color: #337ccc;
+}
+
+.truncate {
+  width: 20ch; /* Ch is the width of the "0" character. Adjust as needed. */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block; /* Ensure it's a block-level element */
+}
+
+.bg-custom-info {
+  background-color: #5eb5db;
+}
+
+.text-green {
+  color: #56d20b;
+}
+
+/* Bootstrap Reset Classes */
+
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #acacac;
+  outline: 0;
+  box-shadow: none;
+}
+
+.custom-min-vh {
+  min-height: 90vh;
+}
+
+.login-bg {
+  background: linear-gradient(
+    180.48deg,
+    #b9dbef 4.36%,
+    #b9dbef 16.08%,
+    #bfdef3 21.14%,
+    #b6dcf3 26.65%,
+    #add6ec 33.76%,
+    #a4d2ea 39.86%,
+    #9dccea 46.97%,
+    #92cae5 53.04%,
+    #8dc8e6 58.27%,
+    #8cc8e6 64.23%,
+    #9fcdea 99.81%
+  );
+}
+
+.password-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.separator-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.line {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #000000;
+  margin: 0 10px;
+}
+
+.or-text {
+  color: #888;
+  padding: 0 10px;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.link-color {
+  color: #3771c8;
+}
+
+/* Dashboard Page CSS */
+
+.sidebar-bg {
+  background-color: #153860;
+}
+
+.sidebar-link {
+  color: #ffffff80;
+}
+
+.profile-picture {
+  height: 40px;
+  width: 40px;
+}
+
+.profile-picture img {
+  height: 100%;
+  width: 100%;
+}
+
+.banner-bg {
+  background: linear-gradient(98.5deg, #153860 53.12%, #dfcff7 155.43%);
+  border-radius: 12px;
+}
+
+.light-dark {
+  color: #ffffffbf;
+}
+
+.card-shadow {
+  box-shadow: 0px 2px 15px 0px #47444440;
+  border-radius: 15px;
+}
+
+.btn-menu {
+  display: none;
+}
+
+
+
+/* Profile Page CSS */
+
+.cover-picture {
+  background-image: url("/assets/images/cover-picture.svg");
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.camera-icon {
+  height: 50px;
+  width: 50px;
+  background-color: #d3d3d3bd;
+  border: 1px solid #5e5e5ebd;
+}
+
+.profile-pic {
+  height: 150px;
+  width: 150px;
+  margin-top: -40px;
+}
+
+.profile-pic img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.camera-icon-small {
+  height: 30px;
+  width: 30px;
+  background-color: #d3d3d3bd;
+  cursor: pointer;
+  left: 100px;
+  bottom: 0%;
+}
+
+.camera-icon-small img {
+  height: 15px;
+  width: 15px;
+}
+
+.bio-text {
+  color: #00000080;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #2a6bb6;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: 0 0;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: #787878;
+}
+
+.link-text {
+  color: #2a6bb6;
+}
+
+.info-text {
+  color: #828282;
+}
+
+.btn-skills-bg {
+  background-color: #e5f1ff;
+}
+
+.modal-socials {
+  height: 180px;
+  overflow-y: auto;
+}
+
+.attached-links-bg {
+  background-color: #ede8e8;
+  height: 40px;
+  width: 40px;
+}
+
+.attached-social-links {
+  height: 20px;
+  width: 20px;
+}
+
+.attached-social-links img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.card-icon img {
+  height: 100%;
+  width: 100%;
+}
+
+.scan-by-qr {
+  height: 30px;
+  width: 30px;
+}
+
+.qr-code {
+  height: 200px;
+  width: 200px;
+}
+
+.qr-code img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Edit Profile Page CSS */
+
+.input-radius {
+  border-radius: 7px;
+}
+
+.add-social-icon {
+  height: 28px;
+  width: 28px;
+}
+
+.add-social-icon img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Share Page CSS */
+
+.my-qr-code {
+  height: 200px;
+  width: 200px;
+}
+
+.my-qr-code img {
+  height: 100%;
+  width: 100%;
+}
+
+.copy-profile-url-bg {
+  background-color: #f1f1f1;
+}
+
+.social-media-filled-icon {
+  height: 30px;
+  width: 30px;
+}
+
+/* My Profile Page CSS */
+
+.my-social-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.my-social-icon img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Settings Page CSS */
+
+.nav-pills .nav-link.active {
+  color: #397ee5;
+  background-color: transparent;
+  border: none;
+}
+.nav-pills .nav-link {
+  color: #000000;
+}
+
+.swal2-title-custom {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.swal2-popup-custom {
+  border-radius: 15px; /* Adjust the border-radius as needed */
+}
+
+.swal2-image {
+  margin-bottom: 0; /* Removes the margin-bottom of the image */
+}
+
+.personal-info-text {
+  color: #5e5c5c;
+}
+
+/* Notification Page CSS */
+
+.marks-as-read-text {
+  color: #0753aa;
+}
+
+.bg-notification {
+  background-color: #6b9f7314;
+}
+
+.user-avatar {
+  height: 50px;
+  width: 50px;
+}
+
+.user-avatar img {
+  height: 100%;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.btn-new {
+  background-color: #53bc63;
+}
+
+.bg-bell {
+  background-color: #ececec80;
+}
+
+/* Product Page CSS */
+
+.product-card {
+  min-height: 80vh;
+}
+
+.nav-pills .nav-card.active {
+  color: #fff;
+  background-color: #153860;
+}
+
+.bg-charcol {
+  background-image: url("/assets/images/Charcoal-Grey.svg");
+  background-size: cover;
+  height: 100px;
+  clip-path: polygon(0 0, 86% 0, 100% 100%, 0% 100%);
+}
+
+.bg-navy-blue {
+  background-image: url("/assets/images/navy-path.svg");
+  background-size: cover;
+  height: 100px;
+}
+
+.profile-image-card {
+  height: 120px;
+  width: 120px;
+}
+
+.profile-image-card img {
+  height: 100%;
+  width: 100%;
+}
+
+.student-card {
+  z-index: 10;
+}
+
+.card-bottom {
+  bottom: -20px;
+  right: 0px;
+  height: 105px;
+}
+
+.upload-box {
+  height: 50px;
+  width: 50px;
+}
+
+/* Hide the file input */
+#file-upload {
+  display: none;
+}
+
+
+/* Hide offcanvas trigger and offcanvas on larger screens */
+@media (min-width: 768px) {
+  .offcanvas-trigger,
+  .offcanvas {
+    display: none;
+  }
+  .divider {
+    display: block;
+    visibility: hidden;
+    font-size: 0;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 767.98px) {
+  .offcanvas-trigger,
+  .offcanvas {
+    display: block;
+  }
+  .btn-menu {
+    display: block;
+  }
+  .btn-hidden-menu {
+    display: none;
+  }
+  .sidebar {
+    display: none;
+  }
+
+  .right-sider-radius {
+    border-radius: 0px;
+  }
+  .mobile-hidden {
+    display: none;
+  }
+
+  /* Profile Page CSS */
+
+  .cover-picture {
+    background-image: url("/assets/images/cover-picture.svg");
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .profile-pic {
+    height: 100px;
+    width: 100px;
+  }
+  .camera-icon-small {
+    left: 70px;
+  }
+
+  .bio-text {
+    color: #00000080;
+    font-size: 10px;
+  }
+  .card-icon {
+    height: 20px;
+    width: 20px;
+  }
+  .truncate {
+    width: 2ch; /* Ch is the width of the "0" character. Adjust as needed. */
+  }
+}
